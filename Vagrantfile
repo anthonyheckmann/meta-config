@@ -1,6 +1,10 @@
 # -*- mode: ruby -*-
 # vi: set ft=ruby :
 
+# Because the Ansible documentation specifies that it is optimized for Vagrant 1.7+
+# We'll demand that Vagrant be recent enough!
+Vagrant.require_version ">= 1.7.0"
+
 # All Vagrant configuration is done below. The "2" in Vagrant.configure
 # configures the configuration version (we support older styles for
 # backwards compatibility). Please don't change it unless you know what
